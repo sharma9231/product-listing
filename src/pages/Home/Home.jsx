@@ -1,17 +1,24 @@
 
 import React from 'react';
+import styled from "styled-components";
 import ProductListing from '../ProductListing/ProductListing';
-import './Home.css';
+
+const HomeContainerDiv = styled.div`
+    background-color: #c7ccc9; `;
+
+const HeaderDiv = styled.h2`
+    text-align: center; `;
+    
 
 const Home = (props) => {
-    return (<div className={'home-container'}>
+    return (<HomeContainerDiv>
         <header>
-            <h2 className={'header ml-3'}>Product Cards Listing</h2>
+            <HeaderDiv className={'ml-3'}>Product Cards Listing</HeaderDiv>
         </header>
         <div className={'row m-0'}>
             <ProductListing></ProductListing>
         </div>
-    </div>)
+    </HomeContainerDiv>)
 }
 
 export default Home;
