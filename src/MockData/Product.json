@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "name": "Men's Solid T-Shirt",
+            "img": "t-shirt.jpeg",
+            "price": "$450.00",
+            "category":"Winter Wear"
+        },
+        {
+            "name": "Girl's Floral Dress",
+            "img": "girlDress.jpg",
+            "price": "$190.00",
+            "category":"Winter Wear"
+        },
+        {
+            "name": "Girl's Black Tee",
+            "img": "blackTshirt.jpg",
+            "price": "$499.99",
+            "category":"Winter Wear"
+        },  
+        {
+            "name": "Men's White Sweat Shirt",
+            "img": "FootballSweatShirt.jpg",
+            "price": "$200.00",
+            "category":"Summer Wear"
+        },
+        {
+            "name": "Girl's Black FLoral Dress",
+            "img": "GirlBlackDress.jpg",
+            "price": "$120.00",
+            "category":"Summer Wear"
+        },
+        {
+            "name": "Women's White Sweat Shirt",
+            "img": "womenwinterWeardress.jpg",
+            "price": "$900.00",
+            "category":"Summer Wear"
+        },
+        {
+            "name": "Women's Gucci Sweat Shirt",
+            "img": "GucciSweatshirt.jpg",
+            "price": "$99.00",
+            "category":"Summer Wear"
+        }
+    ]
+}
